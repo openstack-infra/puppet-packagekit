@@ -18,7 +18,7 @@ class packagekit(
   $package_ensure = present
 ) {
 
-  include packagekit::params
+  include ::packagekit::params
 
   package { $::packagekit::params::package:
     ensure => $package_ensure,

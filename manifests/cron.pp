@@ -22,7 +22,7 @@ class packagekit::cron(
   $system_name = false
 ) inherits packagekit {
 
-  include packagekit::params
+  include ::packagekit::params
 
   package { $::packagekit::params::cron_package:
     ensure => $package_ensure,
