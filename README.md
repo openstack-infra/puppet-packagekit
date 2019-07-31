@@ -1,5 +1,3 @@
-# OpenStack Packagekit Module
+# This repo has moved to OpenDev
 
-## Overview
-
-Configures Packagekit.
+It can now be found at [https://opendev.org/opendev/puppet-packagekit](https://opendev.org/opendev/puppet-packagekit)
